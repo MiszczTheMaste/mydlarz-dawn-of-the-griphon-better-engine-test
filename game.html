@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/crt.css">
+		<style>
+			.shaking{
+				animation: shake 4s 2s infinite;
+			}
+			@keyframes shake {
+				0%{top: 0; left: 0}
+				4%{top: 4px; left: 5px}
+				8%{top: 0; left: 0}
+				10%{top: 0; left: 5px}
+				12%{top: 4px; left: 5px}
+				16%{top: 0; left: 0}
+				18%{top: 0; left: 5px}
+				20%{top: 4px; left: 5px}
+				24%{top: 0; left: 0}
+				22%{top: 0; left: 5px}
+				30%{top: 4px; left: 5px}
+				34%{top: 0; left: 0}
+				36%{top: 0; left: 5px}
+				38%{top: 4px; left: 5px}
+				42%{top: 0; left: 0}
+				44%{top: 0; left: 5px}
+				46%{top: 4px; left: 5px}
+				50%{top: 0; left: 0}
+				52%{top: 0; left: 5px}
+				54%{top: 4px; left: 5px}
+				58%{top: 0; left: 0}
+				60%{top: 0; left: 5px}
+				62%{top: 4px; left: 5px}
+				66%{top: 0; left: 0}
+				100%{top: 0; left: 0}
+			}
+			.light{
+				background-color: #f0f0f0;
+				color: #0f0f0f;
+			}
+			.light > p{
+				color: #0f0f0f;
+			}
+			.midnight{
+				background-color: #222;
+			}
+			.explosion{
+				animation: explode 4s 1s;
+			}
+			@keyframes explode {
+				50%{background-color: #f3f3f3}
+			}
+		</style>
+	</head>
+	<body>
+		<main onmousemove="currentChapter.then(function(result){if(result == 1){typingEnded = 1;}});"></main>
+		<div id="lib">
+			<div id="intro">
+				<p>The year was <span style='color: rgb(0, 0, 250);'>5000</span></p>
+				<p>In <span style='color: rgb(0, 0, 250);'>January</span> something with unmatched scale began</p>
+				<p><span style='color: rgb(139, 0, 0);' >The war</span></p>
+				<p>At first nobody realised importance of the situation</p>
+				<p>But soon, <span style='color: rgb(139, 69, 19);'>everyone</span> had to take their <span style='color: rgb(139, 0, 0);' data-alttext-hover="xx;">part</span> in the conflict</p>
+				<p> </p>
+				<p><span style='color: rgb(255, 215, 0);'>Second Commonwealth of All Nations</span></p>
+				<p>In short called <span style='color: rgb(255, 215, 0);'>All-Commonwealth</span></p>
+				<p>the greatest empire of the <span style='color: rgb(139, 69, 19);'>mankind</span>, was vast</p>
+				<p>First time I heard about <span style='color: rgb(139, 0, 0);'>The war</span></p>
+				<p>Was when <span style='color: rgb(85, 107, 47);'>military</span> knocked to my family house</p>
+				<p>And I was drafted into <span style='color: rgb(85, 107, 47);'>ground forces</span></p>
+				<p> </p>
+				<p>In <span style='color: rgb(0, 0, 250);'>early October</span> we were taken on training</p>
+				<p><span style='color: rgb(0, 0, 250);'>One month</span> long</p>
+				<p>Shortened to <span style='color: rgb(0, 0, 250);'>twelve days</span></p>
+				<p>Ended after <span style='color: rgb(0, 0, 250);'>tree</span></p>
+				<p> </p>
+				<p>They gave me a <span style='color: rgb(139, 0, 0);'>special</span> task</p>
+				<p>Through my whole life I was a hunter, I hunted</p>
+				<p><span style='color: rgb(252, 95, 95);'>to put bread on my plate</span></p>
+				<p>This cannot be harder</p>
+				<p> </p>
+				<p><span style='color: rgb(95, 252, 199);'>Aliceland</span> awaits, and with it</p>
+				<p><span style='color: rgb(139, 0, 0);'>something more</span></p>
+				<p> </p>
+				<p><span class="next;" data-nextchapter="sequence_1;">Start</span></p></div>
+			<div id="sequence_1">
+				<p><span style='font-style: italic;color: rgb(95, 252, 199);'>Aliceland</span><span style='font-style: italic;'>, birthplace of the</span><span style="color: #ffd700; font-style:italic; rgb(255, 215, 0);"> First All-Commonwealth</span></p>
+				<p><span style='font-style: italic;'>Former grand metropolis is now a</span> <span style='color: rgb(139, 0, 0);'>battlefield</span></p>
+				<p><span style='font-style: italic;'>It all began around</span> <span style='color: rgb(0, 0, 250); font-style: italic;'>4th of September</span> <span style='font-style: italic;'>when</span></p>
+				<p><span style='font-style: italic;color: rgb(205, 173, 0);'>Holy Elven Empire</span> <span style='font-style: italic;'>wanted to take biggest water source in region</span></p>
+				<p><span style="color: #ffd700; font-style:italic; rgb(255, 215, 0);">All-Commonwealth</span> <span style='font-style: italic;'>was on edge of collapse</span></p>
+				<p><span style='font-style: italic;'>Giving up that planet was not an</span> <span style='color: rgb(139, 0, 0);font-style: italic;'>option</span></p>
+				<p><span data-nextchapter="sequence_2;" class="next;" >For honor and humankind</span></p>
+			</div>
+			<div id="sequence_2">
+				<p>We arrived on <span style='color:#0000fa;'>October 5th</span></p>
+				<p>It was evening</p>
+				<p>I wasn't sure, our spacecraft had no windows</p>
+				<p>Some say that the view when you enter the atmosphere</p>
+				<p>Is one of the most <span style='color: #7851a9;'>beautiful</span></p>
+				<p><span class='next;' data-nextchapter='sequence_3;'>I wonder if it is true</span></p>
+			</div>
+			<div id="sequence_3">
+				<p>Landing site was in ruined park</p>
+				<p>Everyone quickly left the ship</p>
+				<p>Some of us tried to look at the <span style='color: #98FB98;'>sky</span></p>
+				<p>But the great skycrapers overhelmed us</p>
+				<p><span class='next;' data-nextchapter='sequence_4;'>Is that how war looks like?</span></p>
+			</div>
+			<div id="sequence_4">
+				<p>Commanders gave <span style='color: #FFFFE0;'>orders</span> to their men</p>
+				<p>One of them stopped me and said:</p>
+				<p>- Hey you, sharpshooter</p>
+				<p>- Do you remember your <span style='color: #FFFFE0;'>orders</span>?</p>
+				<p>I nodded</p>
+				<p>He said one more thing:</p>
+				<p><span style='color: #8b0000;'>Good luck</span> kid</p>
+				<p><span class='next;' data-nextchapter='sequence_5;'>...</span></p>
+			</div>
+			<div id="sequence_5">
+				<p>I walked down one of the streets</p>
+				<p> </p>
+				<p>My name is Alice Gryf</p>
+				<p>And this is story about</p>
+				<p><span style='color: #8b0000;' data-alttext-click="Great individuals;">Unimportant people</span></p>
+				<p><span class='next;' data-nextchapter='sequence_6;'>Forward to my destiny</span></p>
+			</div>
+			<div id="sequence_6">
+				<p>The street was empty</p>
+				<p>Sky above my head has brightened</p>
+				<p><span class='next;' data-nextchapter='sequence_8_look_at_sky;'>Look at it</span></p>
+				<p><span class='next;' data-nextchapter='sequence_9;'>Keep going</span></p>
+			</div>
+		</div>
+	</body>
+	<script src="js/com.js"></script>
+	<script src="js/textProcessingFunctions.js"></script>
+	<script src="js/textProcessing.js"></script>
+	<script src='js/loadChapter.js'></script>
+	<script src='js/variables.js'></script>
+</html>
